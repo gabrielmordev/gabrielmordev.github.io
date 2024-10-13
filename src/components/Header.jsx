@@ -5,7 +5,7 @@ import About from '../pages/About';
 const Header = () => {
   return (
 
-    <Router basename="/gabrielmordevportfolio">
+    <Router>
     <header>
       <h1>GabrielMorDev</h1>
       <nav>
