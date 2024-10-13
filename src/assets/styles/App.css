@@ -6,7 +6,9 @@ body {
     color: #ffffff;
   }
   
-
+h1{
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
 
   header {
     background-color: #333;
@@ -76,4 +78,23 @@ body {
     height: auto;
   }
 
+
+/* Estilos para el contenedor del footer */
+.footer-container {
+  display: flex;               /* Flexbox para organizar los elementos en una línea */
+  justify-content: space-between;  /* Distribuye los divs uno a la izquierda y otro a la derecha */
+  align-items: center;          /* Alineación vertical de los elementos */
+  padding: 10px 20px;           /* Espaciado interno */
+
+}
+
+/* Ajuste para el div de las redes sociales */
+.socials a {
+  margin-left: 10px;            /* Espacio entre los iconos de redes sociales */
+}
+
+.socials img {
+  width: 24px;                  /* Tamaño de los iconos */
+  height: auto;                 /* Mantener proporciones */
+}
 
