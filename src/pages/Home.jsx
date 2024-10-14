@@ -1,10 +1,17 @@
-import '../assets/styles/App.css';
+import '../assets/styles/Home.css';
+import Perfil from '../components/Perfil';
+
 
 const Home = () => {
   return (
     <section id="home">
-      <h2>Bienvenido a mi portafolio</h2>
-      <p>Soy un desarrollador web apasionado por crear sitios y aplicaciones modernas y funcionales.</p>
+      <Perfil/>
+      <div className='texto'>
+      Holadgdag  Holadgdag  Holadgdag  Holadgdag  Holadgegfererwewedewwefwf
+      </div>
+      
+      
+
     </section>
   );
 };
